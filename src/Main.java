@@ -34,7 +34,6 @@ public class Main {
         adjacencyMatrixGraph.addEdge("B", "D");
         adjacencyMatrixGraph.addEdge("C", "D");
 
-        adjacencyMatrixGraph.displayGraph();
 
         adjacencyMatrixGraph.bfs("A"); // Expected Output: BFS Traversal: A B C D
         adjacencyMatrixGraph.dfs("A"); // Expected Output: DFS Traversal: A B D C
